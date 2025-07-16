@@ -1,0 +1,402 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./Fonts/Gilroy-Bold.ttf);
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Gilroy;
+    background-color: #F9F9F9;
+}
+/* IIIXI-GIT */
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 50px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+.logo img{
+    height: 40px;
+}
+.Nav_Link li{
+    display: inline;
+}
+.Nav_Link li a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+.Nav_btn{
+    background-color: #75BF7A;
+    color: #ffff;
+    font-family: gilroy;
+    font-size: 1rem;
+    font-weight: normal;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.Nav_btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.Hamburger{
+    display: flex;
+    gap: 1px;
+    width: 29px;
+    height: 29px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    flex-wrap: wrap;
+    display: none;
+}
+.Hamburger span{
+    width: 29px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #000;
+    flex-direction: column;
+}
+/* IIIXI-GIT */
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;;
+}
+.Left-Content{
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+}
+.Text h3{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.Text p{
+    color: #9E9DA2;
+    font-size: 1.2rem;
+    margin-top: 20px;
+
+}
+.Appicons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+.Store-Icons{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #ffff;
+    font-family: gilroy;
+    font-size: 1rem;
+    font-weight: normal;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+.Store-Icons img{
+    height: 25px;
+    margin-left: 20px;
+}
+.Store-Icons p{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.Right-Image{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.Right-Image img{
+    height: 470px;
+    float: right;
+
+}
+/* IIIXI-GIT */
+.Download-Link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #75BF7A;
+    width: 1250px;
+    height: 120px;
+    border-radius: 5px;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
+}
+.Download-Link p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.input-feild{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.input-feild:focus{
+    outline: none;
+}
+.input-feild {
+    padding-left: 15px;
+    color: #9E9DA2;
+    font-family: gilroy;
+}
+.Drive-btn{
+    background-color: #000;
+    color: #ffff;
+    font-family: gilroy;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* IIIXI-GIT */
+.Work_Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.Work_Text h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+.Work_Text p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #9E9DA2;
+}
+.Tere_Work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.work_left{
+    text-align: end;
+}
+.Tere_Work h2{
+    font-family: Gilroy;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.Tere_Work p{
+    color: #9E9DA2;
+    font-size: 1.2rem;
+}
+/* IIIXI-GIT */
+.Benefit{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.Tere-Benefits{
+    flex-direction: column;
+}
+.benefit-card{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.left-content{
+    display: flex;
+    gap: 20px;
+}
+.right-content img{
+    height: 200px;
+    float: right;    
+}
+/* IIIXI-GIT */
+.Footer{
+    height: 250px;
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Footer p{
+    color: #9E9DA2;
+    font-size: 1rem;
+}
+.credit{
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.credit p{
+    color: #75BF7A;
+    font-size: 1.2rem;
+}
+/* IIIXI-GIT */
+@media (max-width:768px) {
+    .Hamburger {
+            display: flex;
+        }    
+    .Nav_Link{
+            display: none;
+        }
+    .Hero{
+        flex-direction: column-reverse;
+    }
+    .Left-Content{
+        margin: 0;
+    }
+    .Right-Image img{
+    justify-content: center;
+    align-items: center;
+}
+}
+@media (max-width:576px) {
+    .Hamburger {
+            display: flex;
+        }    
+    .Nav_Link{
+            display: none;
+        }
+    .Hero{
+        flex-direction: column-reverse;
+    }
+    .Text h3, p{
+        text-align: center;
+        margin-top: 0;
+    }
+    .Right-Image img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Appicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    }
+    .Download-Link{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 450px;
+    height: 230px;
+    padding: 25px;
+    }
+    .Download-Link p{
+        text-align: left;
+        font-size: 2rem;
+    }
+    .input-feild{
+    width: 430px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    }
+    .Drive-btn{
+    width: 445px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 0px;   
+    }
+    .Tere_Work{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid-work_img{
+        order: 1;
+    }
+    .work-1{
+        order: 3;
+    }
+    .work-2{
+        order: 2;
+    }
+    .work-3{
+        order: 4;
+    }
+    .work-4{
+        order: 5;
+    }
+
+    .work_left, .work_right{
+    text-align: center;
+    }
+    .benefit-card{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 350px;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .Footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        padding: 25px;
+    }
+
+    .Footer h3{
+        text-align: center;
+    }
+    .Link-1{
+        margin-top: 20px;
+    }
+    .Link-2{
+        display: none;
+    }
+    
+
+}
